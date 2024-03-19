@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+}
+
+.header-top {
+    font-family: monospace;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 5px;
+  }
+
+  .block-top {
+    background:#1f2937;
+    display: flex;
+    flex-direction: column;
+}
+
+  .logo {
+    width: 100px;
+    height: 50px;
+    background: #f9faf8;
+  }
+
+  ul {
+    list-style-type: none;
+    display: flex;
+    gap: 8px;
+    margin: 0px;
+    padding: 0px; 
+  }
+
+  a {
+    font-size: 20px;
+    padding: 8px ;
+    text-decoration: none;
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: #f9faf8;
+
+  }
+
+  button.aboutme {
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+    display: flex;
+    width: 70px;
+  }
+
+  .block {
+    display: flex;
+    margin: 0 100px;
+    padding: 100px 0px;
+    justify-content:space-between;
+  }
+
+  .title {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+    font-family: monospace ;
+    display: flex;
+    margin: 0;
+  }
+
+  .under-title {
+    width: 480px;
+    display: flex;
+    margin: 0;
+    color: #f9faf8;
+  }
+
+  .landing-img {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    padding: 50px;
+  }
+  
+  .block-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+    width: 480px;
+}
