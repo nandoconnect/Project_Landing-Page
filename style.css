@@ -365,7 +365,15 @@ button.getintouch {
     border-radius: 10px;
     font-size: 14px;
     width: 115px;
+    cursor: pointer;
   }
+
+.getintouch:hover {
+    border-color: #657275;
+    transform: scale(1.1);
+    background-color: #657275;
+    box-shadow: 0 0px 5px 0px #af9c98;
+}
 
 .modal-left {
     display: flex;
