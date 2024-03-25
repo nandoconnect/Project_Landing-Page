@@ -46,7 +46,13 @@ button.aboutme {
     font-size: 14px;
     width: 100px;
     font-weight: 750;
+    cursor: pointer;
   }
+
+  .aboutme:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0px 5px 0px #af9c98;
+}
 
 .logo {
     width: 160px;
@@ -189,7 +195,7 @@ width: 480px;
   }
 
 .card:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 
@@ -370,7 +376,7 @@ button.getintouch {
 
 .getintouch:hover {
     border-color: #657275;
-    transform: scale(1.1);
+    transform: scale(1.05);
     background-color: #657275;
     box-shadow: 0 0px 5px 0px #af9c98;
 }
