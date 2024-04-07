@@ -8,8 +8,14 @@
 
 body {
     margin: 0;
-    background-color: #000000;
-}
+    background: linear-gradient(
+        to right,
+        #000000 0%,
+        #212121 23%,
+        #212121 0%,
+        #000000 100%
+      );   
+    }
 
 .container-main {
     display: flex;
@@ -31,8 +37,14 @@ body {
     }
 
 .block-top {
-    background:#000000;
-    display: flex;
+    background: linear-gradient(
+        to right,
+        #000000 0%,
+        #212121 23%,
+        #212121 0%,
+        #000000 100%
+      );    
+      display: flex;
     flex-direction: column;
     height: 70vh;
 }
@@ -156,7 +168,15 @@ width: 480px;
     align-items: center;
     width: 100%;
     height: 55vh;  
-    background-color: #212121;
+    padding-bottom: 80px;
+    background: linear-gradient(
+        to right,
+        #000000 0%,
+        #212121 23%,
+        #212121 0%,
+        #000000 100%
+      );    
+
 }
   
 .title2 {
@@ -175,7 +195,7 @@ width: 480px;
     text-align: center;
     flex-wrap: wrap;
     color: #ffffff;
-    gap: 20px;
+    gap: 50px;
     font-weight: 500;
     font-size: 16px;
     font-family: 'Source Sans pro', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -183,6 +203,10 @@ width: 480px;
 
 .text {
     padding-top: 15px;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 0;
+    margin: 0;
   }
 
 .card {
@@ -200,9 +224,9 @@ width: 480px;
 
 
 .img2 {
-    width: 80%;
-    height: 220px;
-    border-radius: 20px;
+    width: 90%;
+    height: 290px;
+    border-radius: 5px;
 }
 
 /* ---------- REVIEW SECTION ---------- */
@@ -216,8 +240,14 @@ width: 480px;
     flex-direction: column;
     justify-content: center;
     color: #ffffff;
-    background-color:#000000;
-    font-family: 'Source Sans pro', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: linear-gradient(
+        to right,
+        #000000 0%,
+        #212121 23%,
+        #212121 0%,
+        #000000 100%
+      );        
+      font-family: 'Source Sans pro', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 h2 {
@@ -257,8 +287,8 @@ h2 {
 }
 
 .reviewItem {
-    width: 300px;
-    height: 80%;
+    width: 270px;
+    height: 77%;
     padding: 10px;
     margin: 1rem;
     cursor: pointer;
@@ -347,8 +377,16 @@ article p {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    background-color: #212121;
-}
+    background: linear-gradient(
+        to right,
+        #000000 0%,
+        #212121 23%,
+        #212121 0%,
+        #000000 100%
+      ); 
+      padding-bottom: 80px;
+   
+    }
 
 .modal {
     background: #ffffff;
@@ -419,7 +457,13 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #000000;
+    background: linear-gradient(
+        to right,
+        #000000 0%,
+        #212121 23%,
+        #212121 0%,
+        #000000 100%
+      );    
     color: #ffffff;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
